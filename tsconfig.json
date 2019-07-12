@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2018",
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "outDir": "tests/stepDefinitions/dist"
+  },
+  "include": ["tests/stepDefinitions/*"]
+}
