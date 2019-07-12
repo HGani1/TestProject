@@ -10,4 +10,5 @@ BDD style using the gherkin syntax for the scenarios. Cucumber as the test runne
 
 # Run
 
+Download dependecies with ``` npm i ```
 On the CLI, enter ``` npm run cucumber ```

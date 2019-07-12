@@ -1,7 +1,7 @@
 {
-  "name": "testprojectfx",
+  "name": "testproject",
   "version": "1.0.0",
-  "description": "Test Project FX",
+  "description": "Test Project",
   "main": "index.js",
   "scripts": {
     "cucumber": "tsc && cd tests && npx cucumber-js features/*.feature --require stepDefinitions/dist/*.js"
@@ -9,12 +9,8 @@
   "author": "Hasan Gani",
   "license": "ISC",
   "devDependencies": {
-    "@types/aws-lambda": "^8.10.23",
     "@types/chai": "^4.1.7",
-    "@types/mocha": "^5.2.7",
     "@types/node": "^11.13.5",
-    "@types/sinon": "^7.0.13",
-    "@types/uuid": "^3.4.4",
     "@typescript-eslint/eslint-plugin": "^1.11.0",
     "@typescript-eslint/parser": "^1.11.0",
     "axios": "^0.19.0",
@@ -23,30 +19,14 @@
     "eslint-config-prettier": "^6.0.0",
     "eslint-plugin-prettier": "^3.1.0",
     "lint-staged": "^8.2.1",
-    "mocha": "^6.1.4",
     "prettier": "1.18.2",
-    "sinon": "^7.3.2",
     "ts-loader": "^5.3.3",
     "ts-node": "^8.3.0",
-    "typescript": "^3.4.1",
-    "webpack": "^4.29.6",
-    "webpack-cli": "^3.3.0",
-    "webpack-merge": "^4.2.1",
-    "webpack-node-externals": "^1.7.2"
+    "typescript": "^3.4.1"
   },
   "dependencies": {
-    "@types/chai-as-promised": "^7.1.0",
     "@types/node": "^11.13.5",
-    "aws-sdk": "^2.479.0",
-    "behavepro": "^0.1.0",
-    "chai-as-promised": "^7.1.1",
-    "cucumber": "^5.1.0",
-    "dotenv": "^8.0.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+    "cucumber": "^5.1.0"
   },
   "lint-staged": {
     "*.js": [
